@@ -1,0 +1,14 @@
+server:
+  port: 7011
+
+eureka:
+  instance:
+    hostname: eureka7011.com
+  client:
+    register-with-eureka: false
+    #不检索自己
+    fetch-registry: false
+    #不注册自己
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka/
+      #设置与eureka server交互的地址查询服务和注册服务都需要依赖这个地址

@@ -1,0 +1,19 @@
+server:
+  port: 80
+
+spring:
+  application:
+    name: springcloud-order
+  zipkin:
+    base-url: http://127.0.0.1:9411
+  sleuth:
+    sampler:
+      probability: 1
+
+
+eureka:
+  client:
+    register-with-eureka: false #表示是否将自己注册进eurekaserver,默认true
+    fetch-registry: true #是否从eurekaserver抓取己有的注册信息，单节点无所谓，集群必须设置true才能配置和ribbon使用负载均衡
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka

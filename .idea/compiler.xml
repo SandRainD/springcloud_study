@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springcloud-config-client3355" />
+        <module name="springcloud-eureka7001" />
+        <module name="cloudapicommons" />
+        <module name="cloudalibaba-sentinel8401" />
+        <module name="springcloud-payment8006" />
+        <module name="springcloud-payment8001" />
+        <module name="springcloud-order80" />
+        <module name="springcloud-payment8002" />
+        <module name="springcloud-payment8001-hystrix" />
+        <module name="springcloud-config3344" />
+        <module name="cloudalibaba-payment9001" />
+        <module name="springcloud-config-bus3366" />
+        <module name="cloudalibaba-payment9002" />
+        <module name="cloudalibaba-payment9003" />
+        <module name="cloudalibaba-payment9004" />
+        <module name="springcloud-order80-feign-hystrix" />
+        <module name="springcloud-order9001-hystrix_dashboard" />
+        <module name="springcloud-payment" />
+        <module name="springcloud-payment8006-consul" />
+        <module name="cloudalibaba-nacos-order84" />
+        <module name="springcloud-stream-rabbitmq-consumer8802" />
+        <module name="cloudalibaba-nacos-order83" />
+        <module name="cloud-api-commons" />
+        <module name="springcloud-order80-consul" />
+        <module name="springcloud-eureka7011" />
+        <module name="springcloud-gateway9527" />
+        <module name="cloudalibaba-confignacos-client3377" />
+        <module name="springcloud-order80-feign" />
+        <module name="springcloud-stream-rabbitmq8801" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="springcloud-eureka7002" target="1.8" />
+      <module name="springcloud-payment8006" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
